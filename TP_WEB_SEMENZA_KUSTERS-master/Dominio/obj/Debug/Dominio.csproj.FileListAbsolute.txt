@@ -16,3 +16,9 @@ D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\
 D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\obj\Debug\Dominio.dll
 D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\obj\Debug\Dominio.pdb
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\bin\Debug\Dominio.dll
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\bin\Debug\Dominio.pdb
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\obj\Debug\Dominio.dll
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Dominio\obj\Debug\Dominio.pdb
