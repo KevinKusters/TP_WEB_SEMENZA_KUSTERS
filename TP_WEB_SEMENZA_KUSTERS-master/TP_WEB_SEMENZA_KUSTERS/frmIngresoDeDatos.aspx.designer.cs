@@ -13,15 +13,6 @@ namespace TP_WEB_SEMENZA_KUSTERS {
     public partial class frmIngresoDeDatos {
         
         /// <summary>
-        /// lblDni control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDni;
-        
-        /// <summary>
         /// txtDni control.
         /// </summary>
         /// <remarks>
@@ -29,15 +20,6 @@ namespace TP_WEB_SEMENZA_KUSTERS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDni;
-        
-        /// <summary>
-        /// lblNombre control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNombre;
         
         /// <summary>
         /// txtNombre control.
@@ -49,15 +31,6 @@ namespace TP_WEB_SEMENZA_KUSTERS {
         protected global::System.Web.UI.WebControls.TextBox txtNombre;
         
         /// <summary>
-        /// lblApellido control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblApellido;
-        
-        /// <summary>
         /// txtApellido control.
         /// </summary>
         /// <remarks>
@@ -65,15 +38,6 @@ namespace TP_WEB_SEMENZA_KUSTERS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtApellido;
-        
-        /// <summary>
-        /// lblemail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblemail;
         
         /// <summary>
         /// txtEmail control.
