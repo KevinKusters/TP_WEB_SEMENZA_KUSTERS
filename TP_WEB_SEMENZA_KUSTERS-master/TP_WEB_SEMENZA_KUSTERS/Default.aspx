@@ -7,7 +7,7 @@
         <p class="lead">  
             <p>
             </p>
-            <input type="email" class="form-control" id="txxVoucher" aria-describedby="emailHelp" placeholder="Ingresa el codigo">
+                <asp:TextBox ID="txbVoucher" runat="server" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Ingresa el codigo"></asp:TextBox>
              <p>
             </p>
         <asp:Button CssClass="btn btn-primary btn-lg" ID="btnAceptar" runat="server" Text="Aceptar >>" OnClick="btnAceptar_Click" Height="54px" Width="185px" />

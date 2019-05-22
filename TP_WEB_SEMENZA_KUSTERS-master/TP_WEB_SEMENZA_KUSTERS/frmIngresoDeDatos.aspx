@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmIngresoDeDatos.aspx.cs" Inherits="TP_WEB_SEMENZA_KUSTERS.frmIngresoDeDatos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-      <p>
-      </p>
+    <p>   
+    </p>
     <p>                
         <label for="exampleInputEmail1">DNI:</label>        
     </p>

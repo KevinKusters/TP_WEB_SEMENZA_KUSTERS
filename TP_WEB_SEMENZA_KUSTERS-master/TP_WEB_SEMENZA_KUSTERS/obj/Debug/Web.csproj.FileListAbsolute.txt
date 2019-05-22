@@ -417,3 +417,8 @@ C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-ma
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\obj\Debug\Web.csproj.CopyComplete
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\obj\Debug\TP_WEB_SEMENZA_KUSTERS.dll
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\obj\Debug\TP_WEB_SEMENZA_KUSTERS.pdb
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\AccesoDatos.dll
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\Negocio.dll
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\AccesoDatos.pdb
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\Negocio.pdb
+C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\Negocio.dll.config
