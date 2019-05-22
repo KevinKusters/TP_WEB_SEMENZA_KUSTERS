@@ -13,5 +13,10 @@ namespace TP_WEB_SEMENZA_KUSTERS
         {
 
         }
+
+        protected void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("frmIngresoDeDatos.aspx");
+        }
     }
 }

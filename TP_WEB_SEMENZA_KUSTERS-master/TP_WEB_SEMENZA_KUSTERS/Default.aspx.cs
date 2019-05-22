@@ -15,7 +15,7 @@ namespace TP_WEB_SEMENZA_KUSTERS
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("frmIngresoDeDatos.aspx");
+            Response.Redirect("frmElegirPremio.aspx");
         }
     }
 }

@@ -31,7 +31,7 @@
       </p>
     
     <div>
-          <asp:Button CssClass="btn btn-primary btn-lg" ID="btnAceptar" runat="server" Text="Aceptar >>" Width="132px" Height="51px" OnClick="btnAceptar_Click" />
+          <asp:Button CssClass="btn btn-primary btn-lg" ID="btnParticipar" runat="server" Text="Participar >>" Width="132px" Height="51px" OnClick="btnAceptar_Click" />
    </div>
 
 </asp:Content>
