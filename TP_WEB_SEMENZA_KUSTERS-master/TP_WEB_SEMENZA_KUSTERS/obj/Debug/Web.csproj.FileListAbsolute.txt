@@ -422,3 +422,8 @@ C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-ma
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\AccesoDatos.pdb
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\Negocio.pdb
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\Negocio.dll.config
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\AccesoDatos.dll
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\Negocio.dll
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\AccesoDatos.pdb
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\Negocio.pdb
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\TP_WEB_SEMENZA_KUSTERS\bin\Negocio.dll.config

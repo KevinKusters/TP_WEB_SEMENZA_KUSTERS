@@ -6,7 +6,7 @@
         <label for="exampleInputEmail1">DNI:</label>        
     </p>
     <p> 
-          <asp:TextBox ID="txtDni" runat="server"></asp:TextBox>
+          <asp:TextBox ID="txtDni" runat="server" OnTextChanged="txtDni_TextChanged"></asp:TextBox>
     </p>
     <p>      
         <label for="exampleInputEmail1">Nombre:</label>       

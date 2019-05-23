@@ -20,6 +20,7 @@ namespace TP_WEB_SEMENZA_KUSTERS
             VoucherNegocio voucherNegocio = new VoucherNegocio();
             if(voucherNegocio.VerificarVoucher(txbVoucher.Text))
             {
+                Session["variable_sesion"] = txbVoucher.Text;
                 Response.Redirect("frmElegirPremio.aspx");
             }
             else

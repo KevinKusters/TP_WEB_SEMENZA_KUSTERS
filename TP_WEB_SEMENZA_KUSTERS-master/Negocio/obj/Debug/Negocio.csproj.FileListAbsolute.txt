@@ -10,3 +10,15 @@ C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-ma
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\obj\Debug\Negocio.dll
 C:\Users\sebastian\source\repos\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\obj\Debug\Negocio.pdb
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\bin\Debug\Negocio.dll.config
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\bin\Debug\Negocio.dll
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\bin\Debug\Negocio.pdb
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\bin\Debug\AccesoDatos.dll
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\bin\Debug\Dominio.dll
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\bin\Debug\AccesoDatos.pdb
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\bin\Debug\Dominio.pdb
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\obj\Debug\Negocio.dll
+D:\Repositorio git\TP_WEB_SEMENZA_KUSTERS\TP_WEB_SEMENZA_KUSTERS-master\Negocio\obj\Debug\Negocio.pdb

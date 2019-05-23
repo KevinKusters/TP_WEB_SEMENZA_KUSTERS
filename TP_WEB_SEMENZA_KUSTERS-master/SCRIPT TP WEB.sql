@@ -28,6 +28,20 @@ insert into CLIENTES (DNI,Nombre,Apellido,Email) values (55433344,'Marta','Olive
 create table VOUCHERS(
 	ID varchar(50) not null primary key
 )
+go
+create table VouchersXClientes(
+	dnicliente int not null foreign key references clientes (DNI),
+	IDvoucher varchar(50) not null foreign key references vouchers (ID),
+	primary key(IDvoucher)
+)
+
+
+SELECT DNI FROM CLIENTES WHERE DNI LIKE 37552665
+select * from CLIENTES
+select * from VouchersXClientes
+
+
+
 
 insert into VOUCHERS (ID) values('fr773ii3')
 insert into VOUCHERS (ID) values('go009uu8')
