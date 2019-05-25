@@ -28,15 +28,16 @@ namespace Negocio
             }
         }
 
-    public void AgregarVoucher_x_Cliente(string voucher, int dni)
+    public void AgregarVoucher_x_Cliente(int prod, string voucher, int dni)
         {
             AccesoDatosManager accesoDatos = new AccesoDatosManager();
             try
             {
-                accesoDatos.setearConsulta("INSERT INTO VouchersXClientes (DNICLIENTE, IDVOUCHER) VALUES (@DNI,@IDVOUCHER)");
+                accesoDatos.setearConsulta("INSERT INTO VouchersXClientes (DNICLIENTE, IDVOUCHER , IDProducto) VALUES (@DNI,@IDVOUCHER,@IDProducto)");
                 accesoDatos.Comando.Parameters.Clear();
                 accesoDatos.Comando.Parameters.AddWithValue("@DNI", dni);
                 accesoDatos.Comando.Parameters.AddWithValue("@IDVOUCHER", voucher);
+                accesoDatos.Comando.Parameters.AddWithValue("@IDProducto", prod);
 
                 accesoDatos.abrirConexion();
                 accesoDatos.ejecutarAccion();

@@ -4,20 +4,33 @@
     <table>
     <tr>
         <td>
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/ImagenesProductos/PS4.jpg" />
+            <div class="card" style="width: 18rem;">
+              <img src="ImagenesProductos/PS4.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Joystick de PS4</h5>
+                <asp:Button ID="btnPS4" runat="server" Text="Seleccionar" OnClick="btnPS4_Click" />
+              </div>
+            </div>
         </td>
         <td>
-            <asp:Image ID="Image2" runat="server" ImageUrl="~/ImagenesProductos/Xbox.jpg"/>
+            <div class="card" style="width: 18rem;">
+              <img src="ImagenesProductos/Xbox.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Joystick de Xbox One</h5>
+                <asp:Button ID="btnXbox" runat="server" Text="Seleccionar" OnClick="btnXbox_Click" />  
+              </div>
+            </div>
         </td>
         <td>
-            <asp:Image ID="Image3" runat="server" ImageUrl="~/ImagenesProductos/Stadia.jpg"/>
+            <div class="card" style="width: 18rem;">
+              <img src="ImagenesProductos/Stadia.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Joystick de Stadia</h5>
+                <asp:Button ID="btnStadia" runat="server" Text="Seleccionar" OnClick="btnStadia_Click" />
+              </div>
+            </div>
         </td>
     </tr>
     </table>
-
-
-    <div>
-        <asp:Button CssClass="btn btn-primary btn-lg" ID="btnSiguiente" runat="server" Text="Siguiente >>" Width="132px" Height="51px" OnClick="btnSiguiente_Click" />
-   </div>
 
 </asp:Content>

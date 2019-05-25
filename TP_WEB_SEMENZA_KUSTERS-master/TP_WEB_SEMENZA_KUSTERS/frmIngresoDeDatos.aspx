@@ -7,6 +7,11 @@
     </p>
     <p> 
           <asp:TextBox ID="txtDni" runat="server" OnTextChanged="txtDni_TextChanged"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
+                            ControlToValidate="txtDni" ErrorMessage="*Ingrese Valores Numericos"
+                            ForeColor="Red"
+                            ValidationExpression="^[0-9]*">
+            </asp:RegularExpressionValidator>
     </p>
     <p>      
         <label for="exampleInputEmail1">Nombre:</label>       

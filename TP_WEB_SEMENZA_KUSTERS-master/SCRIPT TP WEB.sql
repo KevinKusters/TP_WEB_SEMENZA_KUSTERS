@@ -5,13 +5,12 @@ go
 
 create table PRODUCTOS(
 	ID smallint not null primary key identity(1,1),
-	Nombre varchar (30) not null,
-	URL varchar (100) not null
+	Nombre varchar (30) not null
 )
 
-insert into PRODUCTOS (Nombre,URL) values ('PS4','PS4.jpg')
-insert into PRODUCTOS (Nombre,URL) values ('XBOX','Xbox.jpg')
-insert into PRODUCTOS (Nombre,URL) values ('STADIA','Stadia.jpg')
+insert into PRODUCTOS (Nombre) values ('PS4')
+insert into PRODUCTOS (Nombre) values ('XBOX')
+insert into PRODUCTOS (Nombre) values ('STADIA')
 
 create table CLIENTES(
 	DNI int not null primary key,
@@ -32,16 +31,11 @@ go
 create table VouchersXClientes(
 	dnicliente int not null foreign key references clientes (DNI),
 	IDvoucher varchar(50) not null foreign key references vouchers (ID),
+	IDProducto smallint not null foreign key references PRODUCTOS (ID),
 	primary key(IDvoucher)
 )
 
-
-SELECT DNI FROM CLIENTES WHERE DNI LIKE 37552665
-select * from CLIENTES
 select * from VouchersXClientes
-
-
-
 
 insert into VOUCHERS (ID) values('fr773ii3')
 insert into VOUCHERS (ID) values('go009uu8')
@@ -49,3 +43,10 @@ insert into VOUCHERS (ID) values('ty999oo8')
 insert into VOUCHERS (ID) values('aa929kk2')
 insert into VOUCHERS (ID) values('fr393ee2')
 insert into VOUCHERS (ID) values('ll000ll0')
+
+
+
+SELECT DNI FROM CLIENTES WHERE DNI LIKE 37552665
+select * from CLIENTES
+select * from VouchersXClientes
+
