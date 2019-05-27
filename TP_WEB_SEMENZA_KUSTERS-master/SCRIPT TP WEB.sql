@@ -1,6 +1,11 @@
+--drop database TP_WEB_SEMENZA_KUSTERS
+
 create database TP_WEB_SEMENZA_KUSTERS
+
 go
+
 use TP_WEB_SEMENZA_KUSTERS
+
 go
 
 create table PRODUCTOS(
@@ -8,9 +13,7 @@ create table PRODUCTOS(
 	Nombre varchar (30) not null
 )
 
-insert into PRODUCTOS (Nombre) values ('PS4')
-insert into PRODUCTOS (Nombre) values ('XBOX')
-insert into PRODUCTOS (Nombre) values ('STADIA')
+go
 
 create table CLIENTES(
 	DNI int not null primary key,
@@ -19,15 +22,14 @@ create table CLIENTES(
 	Email varchar(50) not null
 )
 
-insert into CLIENTES (DNI,Nombre,Apellido,Email) values (37552665,'Sebastian','Semenza','Sebastiansemenza@gmail.com')
-insert into CLIENTES (DNI,Nombre,Apellido,Email) values (11223344,'Jose','Sanchez','Josesanchez@gmail.com')
-insert into CLIENTES (DNI,Nombre,Apellido,Email) values (55433344,'Marta','Olivera','MartaOlivera@gmail.com')
-
+go
 
 create table VOUCHERS(
 	ID varchar(50) not null primary key
 )
+
 go
+
 create table VouchersXClientes(
 	dnicliente int not null foreign key references clientes (DNI),
 	IDvoucher varchar(50) not null foreign key references vouchers (ID),
@@ -35,6 +37,7 @@ create table VouchersXClientes(
 	primary key(IDvoucher)
 )
 
+/*
 select * from VouchersXClientes
 
 insert into VOUCHERS (ID) values('fr773ii3')
@@ -43,10 +46,30 @@ insert into VOUCHERS (ID) values('ty999oo8')
 insert into VOUCHERS (ID) values('aa929kk2')
 insert into VOUCHERS (ID) values('fr393ee2')
 insert into VOUCHERS (ID) values('ll000ll0')
+insert into VOUCHERS (ID) values('ll000ll5')
+insert into VOUCHERS (ID) values('ll010ll5')
+insert into VOUCHERS (ID) values('22020225')
+insert into VOUCHERS (ID) values('PP0P0PP6')
+insert into VOUCHERS (ID) values('SS000SS6')
+insert into VOUCHERS (ID) values('jj111jj6')
+insert into VOUCHERS (ID) values('xx111xx6')
+insert into VOUCHERS (ID) values('xx111xx5')
+insert into VOUCHERS (ID) values('xx211xx6')
 
 
+insert into PRODUCTOS (Nombre) values ('PS4')
+insert into PRODUCTOS (Nombre) values ('XBOX')
+insert into PRODUCTOS (Nombre) values ('STADIA')
+
+insert into CLIENTES (DNI,Nombre,Apellido,Email) values (37552665,'Sebastian','Semenza','Sebastiansemenza@gmail.com')
+insert into CLIENTES (DNI,Nombre,Apellido,Email) values (11223344,'Jose','Sanchez','Josesanchez@gmail.com')
+insert into CLIENTES (DNI,Nombre,Apellido,Email) values (55433344,'Marta','Olivera','MartaOlivera@gmail.com')
 
 SELECT DNI FROM CLIENTES WHERE DNI LIKE 37552665
 select * from CLIENTES
-select * from VouchersXClientes
 
+select v.dnicliente, v.idvoucher, c.nombre, c.apellido, c.email,p.nombre from VouchersXClientes as v
+inner join clientes as  c on c.dni = v.dnicliente
+inner join productos as p on p.id = v.idproducto
+
+*/

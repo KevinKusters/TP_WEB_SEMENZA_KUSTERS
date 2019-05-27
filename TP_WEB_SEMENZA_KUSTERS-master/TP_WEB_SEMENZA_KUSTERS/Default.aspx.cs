@@ -18,24 +18,26 @@ namespace TP_WEB_SEMENZA_KUSTERS
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
             VoucherNegocio voucherNegocio = new VoucherNegocio();
-            if(voucherNegocio.VerificarVoucher(txbVoucher.Text))
+
+            if (voucherNegocio.ChequearVoucherXcliente(txbVoucher.Text))
+            {
+                Response.Write("<script>window.alert('El voucher ya fue utilizado');</script>");                
+            }
+            else if(voucherNegocio.VerificarVoucher(txbVoucher.Text))
             {
                 Session["variable_sesion"] = txbVoucher.Text;
                 Response.Redirect("frmElegirPremio.aspx");
-            }
+            }            
             else
             {
                 String csname1 = "PopupScript";
                 Type cstype = this.GetType();
-                // Get a ClientScriptManager reference from the Page class.
+                
                 ClientScriptManager cs = Page.ClientScript;
-                // Check to see if the startup script is already registered.
+                
                 if (!cs.IsStartupScriptRegistered(cstype, csname1))
                 {
-                    StringBuilder cstext1 = new StringBuilder();
-                    cstext1.Append("<script type=text/javascript> alert('El número de Voucher es incorrecto!') </");
-                    cstext1.Append("script>");
-                    cs.RegisterStartupScript(cstype, csname1, cstext1.ToString());
+                    Response.Write("<script>window.alert('El número de voucher es incorrecto');</script>");
                 }
             }
 

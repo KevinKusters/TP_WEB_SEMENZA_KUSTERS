@@ -132,6 +132,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="frmElegirPremio.aspx" />
     <Content Include="frmIngresoDeDatos.aspx" />
+    <Content Include="frmRegistroCompleto.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -209,6 +210,13 @@
     </Compile>
     <Compile Include="frmIngresoDeDatos.aspx.designer.cs">
       <DependentUpon>frmIngresoDeDatos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistroCompleto.aspx.cs">
+      <DependentUpon>frmRegistroCompleto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRegistroCompleto.aspx.designer.cs">
+      <DependentUpon>frmRegistroCompleto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

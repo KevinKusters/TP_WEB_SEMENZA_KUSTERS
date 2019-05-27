@@ -10,24 +10,15 @@
 namespace TP_WEB_SEMENZA_KUSTERS {
     
     
-    public partial class _Default {
+    public partial class frmRegistroCompleto {
         
         /// <summary>
-        /// txbVoucher control.
+        /// btnInicio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txbVoucher;
-        
-        /// <summary>
-        /// btnAceptar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAceptar;
+        protected global::System.Web.UI.WebControls.Button btnInicio;
     }
 }

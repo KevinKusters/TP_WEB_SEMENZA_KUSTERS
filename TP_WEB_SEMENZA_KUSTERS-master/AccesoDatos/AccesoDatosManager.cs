@@ -9,8 +9,8 @@ namespace AccesoDatos
 {
     public class AccesoDatosManager
     {
-        public static string cadenaConexion = "data source=DESKTOP-MMD2L10\\SQLExpress; initial catalog=TP_WEB_SEMENZA_KUSTERS; integrated security=sspi";
-        //public static string cadenaConexion = "data source=CLARIS; initial catalog=TP_WEB_SEMENZA_KUSTERS; integrated security=sspi";
+        //public static string cadenaConexion = "data source=DESKTOP-MMD2L10\\SQLExpress; initial catalog=TP_WEB_SEMENZA_KUSTERS; integrated security=sspi";
+        public static string cadenaConexion = "data source=CLARIS; initial catalog=TP_WEB_SEMENZA_KUSTERS; integrated security=sspi";
         private SqlCommand comando;
         private SqlConnection conexion;
         private SqlDataReader lector;

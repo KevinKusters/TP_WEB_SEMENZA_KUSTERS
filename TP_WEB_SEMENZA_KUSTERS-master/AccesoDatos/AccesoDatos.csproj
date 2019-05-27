@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="ScriptSQL\ScriptSqlWeb.sql" />
+    <Content Include="ScriptSQL\SQLScriptWeb.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

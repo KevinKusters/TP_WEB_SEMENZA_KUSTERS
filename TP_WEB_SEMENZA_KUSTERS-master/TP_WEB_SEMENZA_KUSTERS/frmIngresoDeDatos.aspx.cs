@@ -22,17 +22,7 @@ namespace TP_WEB_SEMENZA_KUSTERS
         {
             if(txtDni.Text=="" || txtApellido.Text==""||txtNombre.Text == ""|| txtEmail.Text == "")
             {
-                String csname1 = "PopupScript";
-                Type cstype = this.GetType();                
-                ClientScriptManager cs = Page.ClientScript;  
-                
-                if (!cs.IsStartupScriptRegistered(cstype, csname1))
-                {
-                    StringBuilder cstext1 = new StringBuilder();
-                    cstext1.Append("<script type=text/javascript> alert('Debe completar todos los campos') </");
-                    cstext1.Append("script>");
-                    cs.RegisterStartupScript(cstype, csname1, cstext1.ToString());
-                }
+                Response.Write("<script>window.alert('Debe completar todos los campos');</script>");
             }
             else
             {
@@ -43,16 +33,9 @@ namespace TP_WEB_SEMENZA_KUSTERS
                 int Producto = (int)Session["imagen"];
 
                 if (negocio.chequearDNI(int.Parse(txtDni.Text)))
-                {
-                    if (vouchernegocio.ChequearVoucherXcliente(voucher))
-                    {
-                        Response.Write("<script>window.alert('El codigo de voucher ya fue utilizado');</script>");
-                    }
-                    else
-                    {
-                        vouchernegocio.AgregarVoucher_x_Cliente(Producto,voucher,int.Parse(txtDni.Text));
-                        Response.Redirect("Default.aspx");
-                    }                   
+                {                
+                    vouchernegocio.AgregarVoucher_x_Cliente(Producto,voucher,int.Parse(txtDni.Text));
+                    Response.Redirect("Default.aspx");                
                 }                                    
                 else
                 {
@@ -71,24 +54,11 @@ namespace TP_WEB_SEMENZA_KUSTERS
                     else
                     {
                         negocio.cargarCliente(nuevo);
-                        vouchernegocio.AgregarVoucher_x_Cliente(Producto,voucher, nuevo.DNI);                    
+                        vouchernegocio.AgregarVoucher_x_Cliente(Producto,voucher, nuevo.DNI);                                               
 
-                         String csname1 = "PopupScript";
-                         Type cstype = this.GetType();
-                         ClientScriptManager cs = Page.ClientScript;
-
-                        if (!cs.IsStartupScriptRegistered(cstype, csname1))
-                        {
-                            StringBuilder cstext1 = new StringBuilder();
-                            //NO SE ESTA MOSTRANDO ESTE MENSAJE
-                            cstext1.Append("<script type=text/javascript> alert('Registro completado') </");
-                            cstext1.Append("script>");
-                            cs.RegisterStartupScript(cstype, csname1, cstext1.ToString());
-                        }
-
-                        Response.Redirect("Default.aspx");
-
-                    }               
+                        //Response.Write("<script>window.alert('Registro completado');</script>");                        
+                        Response.Redirect("frmRegistroCompleto.aspx");
+                    }                    
                 }              
             }           
         }
