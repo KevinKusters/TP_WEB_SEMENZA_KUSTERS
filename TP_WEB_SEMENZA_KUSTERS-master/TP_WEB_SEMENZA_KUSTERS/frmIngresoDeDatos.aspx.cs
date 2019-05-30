@@ -35,7 +35,7 @@ namespace TP_WEB_SEMENZA_KUSTERS
                 if (negocio.chequearDNI(int.Parse(txtDni.Text)))
                 {                
                     vouchernegocio.AgregarVoucher_x_Cliente(Producto,voucher,int.Parse(txtDni.Text));
-                    Response.Redirect("Default.aspx");                
+                    Response.Redirect("frmRegistroCompleto.aspx");
                 }                                    
                 else
                 {
