@@ -1,10 +1,9 @@
---drop database TP_WEB_SEMENZA_KUSTERS
 
-create database TP_WEB_SEMENZA_KUSTERS
+create database KUSTERS_SEMENZA_TP3
 
 go
 
-use TP_WEB_SEMENZA_KUSTERS
+use KUSTERS_SEMENZA_TP3
 
 go
 
@@ -37,9 +36,6 @@ create table VouchersXClientes(
 	primary key(IDvoucher)
 )
 
-/*
-select * from VouchersXClientes
-
 insert into VOUCHERS (ID) values('fr773ii3')
 insert into VOUCHERS (ID) values('go009uu8')
 insert into VOUCHERS (ID) values('ty999oo8')
@@ -64,12 +60,3 @@ insert into PRODUCTOS (Nombre) values ('STADIA')
 insert into CLIENTES (DNI,Nombre,Apellido,Email) values (37552665,'Sebastian','Semenza','Sebastiansemenza@gmail.com')
 insert into CLIENTES (DNI,Nombre,Apellido,Email) values (11223344,'Jose','Sanchez','Josesanchez@gmail.com')
 insert into CLIENTES (DNI,Nombre,Apellido,Email) values (55433344,'Marta','Olivera','MartaOlivera@gmail.com')
-
-SELECT DNI FROM CLIENTES WHERE DNI LIKE 37552665
-select * from CLIENTES
-
-select v.dnicliente, v.idvoucher, c.nombre, c.apellido, c.email,p.nombre from VouchersXClientes as v
-inner join clientes as  c on c.dni = v.dnicliente
-inner join productos as p on p.id = v.idproducto
-
-*/
